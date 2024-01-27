@@ -24,8 +24,6 @@ c__________________________________________________________________________
       INTEGER iseed, equil, prod, nsamp, ii, icycl, ndispl, attempt, 
      &        nacc, ncycl, nmoves, imove
       DOUBLE PRECISION en, ent, vir, virt, dr, Lambda
-
-      Lambda = 0.5
  
       WRITE (6, *) '**************** MC_NVT ***************'
 c     ---initialize sysem
