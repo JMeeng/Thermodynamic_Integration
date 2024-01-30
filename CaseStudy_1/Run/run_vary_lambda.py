@@ -5,10 +5,14 @@
 import subprocess
 import numpy as np
 
+# working_directory - where you have run file
 working_directory = '/home/user/Documents/GitHub/Thermodynamic_Integration/CaseStudy_1/Run'
+# the path of file 'run' 
 run_path = "/home/user/Documents/GitHub/Thermodynamic_Integration/CaseStudy_1/Run/run"
 
+# Fortran output file path
 out_path = '/home/user/Documents/GitHub/Thermodynamic_Integration/CaseStudy_1/Run/out'
+# Python output file path
 data_path = '/home/user/Documents/GitHub/Thermodynamic_Integration/'
 
 #---------------- Thermodynamic Integration ----------------------------------------
