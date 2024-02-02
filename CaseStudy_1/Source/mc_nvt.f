@@ -50,7 +50,7 @@ c        ---intialize the subroutine that adjust the maximum displacement
          DO icycl = 1, ncycl
             DO imove = 1, nmoves
 c              ---attempt to displace a particle
-               CALL MCMOVE(en, vir, attempt, nacc, dr, iseed)
+               CALL MCMOVE(en, vir, attempt, nacc, dr, iseed, Lambda)
             END DO
             IF (ii.EQ.2) THEN
 c              ---sample averages
